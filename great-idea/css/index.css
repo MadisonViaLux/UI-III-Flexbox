@@ -54,7 +54,9 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +66,73 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+
+
+
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+
+
+.topPic {
+  display: flex;
+  justify-content: space-around;
+}
+
+.topPic h1{
+  font-size: 80px;
+  display: flex;
+  text-align: center;
+}
+
+button{
+  background: none;
+  border: 1px solid;
+  height: 35px;
+  font-family: 'Titillium Web';
+  font-size: 20px;
+}
+
+.TopWords{
+  display: flex;
+  flex-direction: column;
+}
+
+
+hr{
+  margin: 50px
+}
+
+.mid{
+  column-count: 2;
+  margin: 20px 40px;
+}
+
+
+.midImg{
+  display: flex;
+  justify-content: center;
+}
+
+.mid2{
+  column-count: 3;
+  margin: 20px 40px;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.cpyrt{
+  display: flex;
+  justify-content: center;
+}
