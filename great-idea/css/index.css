@@ -211,12 +211,23 @@ article {
   background: rgb(231, 231, 231);
 }
 
-.mainBod button
+.mainBod button{
+  margin: 15px 0px;
+}
 
+.servicesFooter {
+  display: flex;
+}
 
+.footerText2{
+  width: 80%;
+  margin: 20px 0px;
+}
 
-
-
+.bottomList {
+  list-style: inside;
+  list-style-type: square;
+}
 
 
 
